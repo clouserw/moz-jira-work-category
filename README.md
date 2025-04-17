@@ -2,6 +2,9 @@
 
 This script connects to a Jira instance, finds issues matching specific criteria, displays relevant information about each issue, and interactively prompts the user to set the 'Work Category' field.  This script uses fields specific to Mozilla's Jira instance, so, you'll have to change it if you want to use it elsewhere.
 
+![image](https://github.com/user-attachments/assets/1b103200-7db2-4226-949c-e257f2a67ea5)
+
+
 ## Setup
 
 1.  **Clone the repository:**
