@@ -6,23 +6,17 @@ This script connects to a Jira instance, finds issues matching specific criteria
 
 
 ## Setup
-
-1.  **Clone the repository:**
+1. **Get the code**
     ```bash
-    git clone <your-repository-url>
-    cd <your-repository-directory>
-    ```
-
-2.  **Install dependencies:**
-    It's recommended to use a virtual environment:
-    ```bash
+    git clone https://github.com/clouserw/moz-jira-work-category
+    cd moz-jira-work-category
     python -m venv .venv
     source .venv/bin/activate
-    pip install -r requirements.txt
+    pip install -r requirements.txt    
     ```
 
-3.  **Configure Jira Credentials:**
-    Create a file named `.env` in the same directory as `process.py`. Add your Jira server URL, username (email), and API token to this file:
+2.  **Configure**
+    Create a file named `.env` in the same directory as `process.py` and add some variables:
 
     ```dotenv
     # .env file
@@ -37,9 +31,7 @@ This script connects to a Jira instance, finds issues matching specific criteria
 ## Usage
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+python process.py
 ```
 
 Enter `f`, `e`, `o`, or `s` and press Enter.
